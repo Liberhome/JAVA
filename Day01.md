@@ -1,0 +1,8 @@
+****
+小技巧：
+在IDEA中“psvm”代表了：
+```java
+    public static void main(String[] args) {}
+```
+****
+
