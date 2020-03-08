@@ -10,7 +10,23 @@
 ```java
 if(str!=null&&str.length()!=0)
 ```
-QAQ
-*****
+5.StringBuilder相比String的优势在于不用每次都构建一个新的String对象
+直接使用.append方法
+
+6.关于输入：
+```java
+import java.util.Scanner;
+
+public class StoryOfString {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String s1 = scanner.nextLine();//输入一行
+        String s2 = scanner.next();//输入一个单词，用空白符做分割
+        int i = scanner.nextInt();//输入一个整数
+        double v = scanner.nextDouble();//输入一个浮点数
+    }
+}
+```
+
 
 
