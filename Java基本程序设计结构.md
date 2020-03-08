@@ -28,5 +28,16 @@ public class StoryOfString {
 }
 ```
 
+7.
+使用String.format方法创建一个格式化字符串
+```java
+
+        String name="Bill";
+        int age=27;
+        //可以使用String.format方法创建一个格式化字符串
+        String.format("Hello, %s. NextYear you'll be %d",name,age);
+```
+
+
 
 
